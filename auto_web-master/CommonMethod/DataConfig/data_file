@@ -1,0 +1,39 @@
+[REQUEST]
+loginData = {
+                 "type": "form",
+                 "plan": "v3plan_A",
+                 "baidu_ocpc_url": "https://test5.maka.im/muban?bd_vid=null",
+                 "username": "s01@maka.im",
+                 "password": "123456",
+                 "from": "direct",
+                 "direct_url": "//test5.maka.im/auth-box.html"
+        }
+loginUrl = 'https://test5-queryservice.maka.im/api/v1/sessions'
+loginHeader = {"content-type": "application/x-www-form-urlencoded"}
+
+
+[USER]
+userId='600186798'
+unificationId="11490702"
+num = "s01@maka.im"
+pwd = "123456"
+
+
+[WEBSITE]
+url = 'https://test5.maka.im/muban'
+mouldurl = 'https://test5.maka.im/muban/1027151.html'
+
+
+[DING]
+test_url='https://oapi.dingtalk.com/robot/send?access_token=55a41cb94969f4e774761c445beaffc8ce488a0bec686bbc17a4ec6907b9318b'
+url='https://oapi.dingtalk.com/robot/send?access_token=793e866c91202481e6af494e559b08cd217e53984987ea1f115f276bd1f8ac5b'
+mobile=['18811041981','15210448318']
+
+[COS]
+loginUrl="https://member.vipthink.cn/member/v1/pwdLogin"
+uploadUrl="https://market-service.vipthink.cn/oss-service/api/v1/getCredential"
+
+[CASE]
+index_headless=False
+mine_headless=False
+weblogin_headless=False
